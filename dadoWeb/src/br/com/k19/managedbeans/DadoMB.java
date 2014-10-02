@@ -16,6 +16,7 @@ public class DadoMB {
 	public void lancaDado(){
 		
 		this.resultado = this.lancadorDeDadoBean.lanca();
+		System.out.println("Commit");
 	}
 
 	public int getResultado() {
